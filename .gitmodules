@@ -1,0 +1,6 @@
+[submodule "sde-rest-advanced-api"]
+	path = sde-rest-advanced-api
+	url = git@github.com:RobertoNegro/sde-rest-advanced-api.git
+[submodule "sde-rest-advanced-frontend"]
+	path = sde-rest-advanced-frontend
+	url = git@github.com:GiuliaPeserico/sde-rest-advanced-frontend.git
