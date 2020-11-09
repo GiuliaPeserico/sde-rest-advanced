@@ -4,3 +4,6 @@
 [submodule "sde-rest-advanced-frontend"]
 	path = sde-rest-advanced-frontend
 	url = git@github.com:GiuliaPeserico/sde-rest-advanced-frontend.git
+[submodule "sde-rest-advanced-data"]
+	path = sde-rest-advanced-data
+	url = git@github.com:RobertoNegro/covid-19.git

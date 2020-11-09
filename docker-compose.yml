@@ -1,11 +1,25 @@
 version: "3.8"
 
 services:
+
+  data_s:
+    build:
+      context: ./sde-rest-advanced-data
+    ports:
+      - 8081:80
+    networks:
+      app_net:
+        ipv4_address: 172.16.238.10
+    volumes:
+      - /www/node_modules
+      - ./sde-rest-advanced-data:/www
+
+
   api_s:
     build:
       context: ./sde-rest-advanced-api
     ports:
-      - 8082:8081
+      - 8082:80
     networks:
       app_net:
         ipv4_address: 172.16.238.20
