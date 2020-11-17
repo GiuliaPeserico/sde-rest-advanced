@@ -1,0 +1,221 @@
+{
+	"info": {
+		"_postman_id": "b37cd198-f089-4c69-b095-aaf6ba80c42e",
+		"name": "SDE REST Advanced Lab",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Google Chart API Bar Chart",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://chart.googleapis.com/chart?cht=bvg&chs=700x250&chtt=Covid Infections&chds=0,10000&chd=t:6919,8215,7861,9642,4684,9077,8993,3784,5242,9809,4330,3561,6808,7648,3833,7081,7006,7819,7527,2355,7470&chl=Piem.|Vall.|Lomb.|Vene.|Friu.|Ligu.|Emil.|Tosc.|Umbr.|Marc.|Lazi.|Abru.|Moli.|Camp.|Pugl.|Basi.|Cala.|Sici.|Sard.|Bolz.|Tren.&chco=118ab2&chxt=x,y&chxr=1,0,10000",
+					"protocol": "https",
+					"host": [
+						"chart",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"chart"
+					],
+					"query": [
+						{
+							"key": "cht",
+							"value": "bvg",
+							"description": "'bvg' for bar chart"
+						},
+						{
+							"key": "chs",
+							"value": "700x250",
+							"description": "width x height"
+						},
+						{
+							"key": "chtt",
+							"value": "Covid Infections",
+							"description": "Title of the chart"
+						},
+						{
+							"key": "chds",
+							"value": "0,10000",
+							"description": "Set y values in range [0, 10000]"
+						},
+						{
+							"key": "chd",
+							"value": "t:6919,8215,7861,9642,4684,9077,8993,3784,5242,9809,4330,3561,6808,7648,3833,7081,7006,7819,7527,2355,7470",
+							"description": "t: series of values | series of values | series of values (for each bar)"
+						},
+						{
+							"key": "chl",
+							"value": "Piem.|Vall.|Lomb.|Vene.|Friu.|Ligu.|Emil.|Tosc.|Umbr.|Marc.|Lazi.|Abru.|Moli.|Camp.|Pugl.|Basi.|Cala.|Sici.|Sard.|Bolz.|Tren.",
+							"description": "X axis labels"
+						},
+						{
+							"key": "chco",
+							"value": "118ab2",
+							"description": "color"
+						},
+						{
+							"key": "chxt",
+							"value": "x,y",
+							"description": "Show both x and y axis"
+						},
+						{
+							"key": "chxr",
+							"value": "1,0,10000",
+							"description": "Set y axis range as [0, 10000]"
+						},
+						{
+							"key": "",
+							"value": "",
+							"description": "See https://developers.google.com/chart/image/docs/making_charts and https://developers.google.com/chart/image/docs/chart_params",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Google Chart API Line Chart",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://chart.googleapis.com/chart?cht=lc&chs=600x250&chtt=Covid Infections&chds=0,10000&chd=t:4510,7773,2377,4179,8679,4878,6178,4355,8059,7618,7470,2098,7365,2862,4422,6368,8148,5376,8403,3731,3422,5572,8091,8210,2215,4954,9458,7958,7860&chdl=P.A. Trento&chco=118ab2&chl=1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29&chxt=x,y&chxr=1,0,10000",
+					"protocol": "https",
+					"host": [
+						"chart",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"chart"
+					],
+					"query": [
+						{
+							"key": "cht",
+							"value": "lc",
+							"description": "'lc' for line chart"
+						},
+						{
+							"key": "chs",
+							"value": "600x250",
+							"description": "width x height"
+						},
+						{
+							"key": "chtt",
+							"value": "Covid Infections",
+							"description": "Title of the chart"
+						},
+						{
+							"key": "chds",
+							"value": "0,10000",
+							"description": "Set y values in range [0, 10000]"
+						},
+						{
+							"key": "chd",
+							"value": "t:4510,7773,2377,4179,8679,4878,6178,4355,8059,7618,7470,2098,7365,2862,4422,6368,8148,5376,8403,3731,3422,5572,8091,8210,2215,4954,9458,7958,7860",
+							"description": "t: series of values | series of values | series of values (for each line)"
+						},
+						{
+							"key": "chdl",
+							"value": "P.A. Trento",
+							"description": "Labels for each series "
+						},
+						{
+							"key": "chco",
+							"value": "118ab2",
+							"description": "Color of each series (hexadecimal RRGGBB format)"
+						},
+						{
+							"key": "chl",
+							"value": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29",
+							"description": "X axis labels"
+						},
+						{
+							"key": "chxt",
+							"value": "x,y",
+							"description": "Show both x and y axis"
+						},
+						{
+							"key": "chxr",
+							"value": "1,0,10000",
+							"description": "Set y axis range as [0, 10000]"
+						},
+						{
+							"key": "",
+							"value": "",
+							"description": "See https://developers.google.com/chart/image/docs/making_charts and https://developers.google.com/chart/image/docs/chart_params",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MapQuest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.mapquestapi.com/staticmap/v5/map?key={{mapquestApi}}&size=500,500&center=46.066667,11.116667&zoom=12&shape=border:ff0000ff|fill:ff000099|radius:2|46.066667,11.116667&shape=border:ff0000ff|fill:ff000099|radius:3|46.090667,11.156667",
+					"protocol": "https",
+					"host": [
+						"www",
+						"mapquestapi",
+						"com"
+					],
+					"path": [
+						"staticmap",
+						"v5",
+						"map"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{mapquestApi}}",
+							"description": "API key"
+						},
+						{
+							"key": "size",
+							"value": "500,500",
+							"description": "width,height"
+						},
+						{
+							"key": "center",
+							"value": "46.066667,11.116667",
+							"description": "latitude,longitude"
+						},
+						{
+							"key": "zoom",
+							"value": "12",
+							"description": "Between 0 and 20"
+						},
+						{
+							"key": "shape",
+							"value": "border:ff0000ff|fill:ff000099|radius:2|46.066667,11.116667",
+							"description": "border color (hexadecimal RRGGBBAA, with AA for the opacity), fill color (RRGGBBAA), radius in kilometers, latitude and longitude of the center"
+						},
+						{
+							"key": "shape",
+							"value": "border:ff0000ff|fill:ff000099|radius:3|46.090667,11.156667",
+							"description": "For additional settings see: \"Adding Polygons, Polylines, and Circles to the Map\" in https://developer.mapquest.com/documentation/static-map-api/v5/map/"
+						},
+						{
+							"key": "",
+							"value": "",
+							"description": "See https://developer.mapquest.com/documentation/static-map-api/v5/map/",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
