@@ -1,9 +1,9 @@
 [submodule "sde-rest-advanced-api"]
 	path = sde-rest-advanced-api
-	url = git@github.com:RobertoNegro/sde-rest-advanced-api.git
+	url = https://github.com/RobertoNegro/sde-rest-advanced-api.git
 [submodule "sde-rest-advanced-frontend"]
 	path = sde-rest-advanced-frontend
-	url = git@github.com:GiuliaPeserico/sde-rest-advanced-frontend.git
+	url = https://github.com/GiuliaPeserico/sde-rest-advanced-frontend.git
 [submodule "sde-rest-advanced-data"]
 	path = sde-rest-advanced-data
-	url = git@github.com:RobertoNegro/covid-19.git
+	url = https://github.com/RobertoNegro/covid-19.git
